@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare a variable name and initialize it to Dane.
+// For the if conditional we check to see if name is equal to Mary,
+// the condition is false so the else block is executed,
+//logging 'How do you do?' to the console.
 
 //CODE
 /*
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare variables secret and code, initializing code to 123.
+// We check to see if code is equal to 123, which evaluates to true so the block is executed.
+// secret is assigned the string value 'super' and code is multiplied by two (246).
+//Next we check if code is greater than 250, which evaluates to false and the block is skipped.
+//Finally we log secret to the console which again is 'super'.
 
 //CODE
 /*
@@ -70,10 +71,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+/*
+we declare and initialize isStudent to true, age to 34, and zip to 55407,
+we check two conditions that both need to be true, however zip is not greater than 8000,
+evaluating to false and the block is skipped.
+Next, since isStudent != false and also age > 30, both conditions are false and this block is also skipped.
+finally we check if isStudent is equal to true which evaluates to true,
+therefor we log 'Welcome to Prime!' to the console and the program skips the else block.
+*/
 
 //CODE
 /*
@@ -130,6 +135,10 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+FIX: Though it won't matter in this particular code, the initialized values for 
+colorOne and colorTwo should be swapped. colorTwo must also be assigned 'purple' per the instructions.
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -144,6 +153,8 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+FIX: The OR operator should be an AND operator(&&), though the block will
+execute regardless of the faulty logic.
 let temp = 40;
 const time = 4;
 
@@ -157,6 +168,7 @@ if (temp > 39 || time >= 4) {
 // -- it is, so we console.log 'enter'.
 
 /*
+FIX: The if block should log 'enter', while the else block should log 'no entry'.
 let age = 21;
 const minAge = 21;
 
